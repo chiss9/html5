@@ -5,6 +5,19 @@ margin: 0;
 padding: 0;
 }
 
+.group:before,.group:after {
+  content:"";
+  display:table;
+}
+
+.group:after {
+  clear:both;
+}
+        
+/* For IE 6/7 (trigger hasLayout) */
+.group {
+  *zoom:1;
+}
 
 /* Navigation */
 body > header {
