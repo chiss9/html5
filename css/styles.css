@@ -128,10 +128,34 @@ nav ul li {
   #top_section {
     display:none;
   }
+ 
+  .sub {
+    display:none;
+  }
+
+  header .sub ul li {
+    display: block;
+    text-align:right;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-right; 0;
+  }
+
+  header .sub ul li {
+
+  }
+
+  header .sbu nav ul li a:hover {
+    border-bottom-color: red;
+    border-bottom-style:solid;
+  }
 
   .red {
-    color: red;
     text-align:center;
+  }
+
+  .red a {
+    color: red;
+    text-decoration: none;
   }
   
   .menu {
