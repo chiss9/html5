@@ -93,6 +93,15 @@ h2 {
   column-count:3;
 }
 
+
+figure {
+  overflow: hidden;
+}
+
+img {
+  width: auto;
+}
+
 #note {
   position: relative;
   top: 770px; 
@@ -170,6 +179,5 @@ nav ul li {
     -moz-column-count:1; /* Firefox */
     -webkit-column-count:1; /* Safari and Chrome */
     column-count:1;
-    overflow:hidden;
   }
 }
