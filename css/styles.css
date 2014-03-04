@@ -170,5 +170,6 @@ nav ul li {
     -moz-column-count:1; /* Firefox */
     -webkit-column-count:1; /* Safari and Chrome */
     column-count:1;
+    overflow:hidden;
   }
 }
